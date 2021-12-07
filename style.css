@@ -20,21 +20,21 @@
             text-align: center;
         }
 
-               .dropdown {
+        .dropdown {
             position: relative;
             display: inline-block;
         }
 
-                .dropdown-content {
+        .dropdown-content {
             display: none;
             position: absolute;
             background-color: #3370A6;
             width: 190px;
             height: 170px;
-                        margin: -170px 15px;
+            margin: -170px 15px;
         }
 
-                .dropdown-content a {
+        .dropdown-content a {
             color: #D9AE5F;
             font: inherit;
             padding: 5px;
@@ -42,7 +42,7 @@
             display: block;
         }
 
-               .dropdown-content a:hover {
+        .dropdown-content a:hover {
             background-color: #D0D9D0;
         }
 
