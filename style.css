@@ -1,17 +1,18 @@
         body {
-            background-color: #3F403C;
+            background-color: #000000;
             font-family: 'Dosis', sans-serif;
-            font-size: 37px;
+            color: #F2C2CF;
+            font-size: 35px;
             text-align: center;
             padding-top: 150px;
         }
 
         .dropbtn {
             font: inherit;
-            color: #D9AE5F;
-            background-color: #3370A6;
-            border: solid 10px #D0D9D0;
-            padding: 50px 10px;
+            color: #F2C2CF;
+            background-color: #000000;
+            border: solid 5px #F2C2CF;
+            padding: 50px 8px;
             margin: 0px 15px;
             width: 190px;
             height: 170px;
@@ -27,41 +28,99 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #3370A6;
+            background-color: #000000;
             width: 190px;
             height: 170px;
             margin: -170px 15px;
         }
 
         .dropdown-content a {
-            color: #D9AE5F;
+            color: #F2C2CF;
             font: inherit;
-            padding: 5px;
+            padding: 7px;
             text-decoration: none;
             display: block;
         }
 
         .dropdown-content a:hover {
-            background-color: #D0D9D0;
+            background-color: #3F403C;
         }
 
         .dropdown:hover .dropdown-content {
             display: block;
         }
 
-        .cm  {
-            color: #D9AE5F;
-            background-color: #3370A6;
-            border: solid 10px #D0D9D0;
-            padding: 50px 10px;
-            margin: 0px 20px;
-            width: 150px;
-            height: 50px;
+        .cm {
+            color: #F2C2CF;
+            background-color: #000000;
+            border: solid 5px #F2C2CF;
+            padding: 60px 10px;
+            margin: 0px 15px;
+            width: 160px;
+            height: 40px;
             display: inline-block;
             text-align: center;
             text-decoration: none;
         }
 
         .cm:hover {
-            background-color: #D0D9D0;
+            background-color: #3F403C;
+        }
+
+        #resultadoGrupo {
+            color: #F2C2CF;
+            font: inherit;
+            background-color: #000000;
+            border: solid 5px #F2C2CF;
+            padding: 60px 10px;
+            margin: 50px 15px;
+            width: 160px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        #resultadoUnitario {
+            color: #F2C2CF;
+            font: inherit;
+            background-color: #000000;
+            border: solid 5px #F2C2CF;
+            padding: 60px 10px;
+            margin: 50px 15px;
+            width: 160px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+
+        }
+
+        #resultadoDuplo {
+            color: #F2C2CF;
+            font: inherit;
+            background-color: #000000;
+            border: solid 5px #F2C2CF;
+            padding: 60px 10px;
+            margin: 50px 15px;
+            width: 160px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        #resultadoTriplo {
+            color: #F2C2CF;
+            font: inherit;
+            background-color: #000000;
+            border: solid 5px #F2C2CF;
+            padding: 60px 10px;
+            margin: 50px 15px;
+            width: 160px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
         }

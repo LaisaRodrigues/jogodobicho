@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-    
-        <title>Gerador de Apostas</title>
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    
-    </head>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Gerador de Apostas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
 
 <body>
+    <p id="resultadoUnitario"></p>
 
+    <script>
+
+        const centena = resultadoSorteio(00, 999)
+
+        const p = document.querySelector('p')
+        p.innerHTML = centena
+
+        function resultadoSorteio(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            const conta = Math.floor(Math.random() * (max - min)) + min;
+            var s = conta + "";
+            while (s.length < 3) s = "0" + s;
+            return s;
+        }
+
+    </script>
 </body>
+
 
 </html>
