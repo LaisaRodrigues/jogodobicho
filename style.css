@@ -97,7 +97,7 @@
 
         }
 
-        #resultadoDuplo {
+        .resultadoDuplo {
             color: #F2C2CF;
             font: inherit;
             background-color: #000000;
@@ -111,16 +111,4 @@
             text-decoration: none;
         }
 
-        #resultadoTriplo {
-            color: #F2C2CF;
-            font: inherit;
-            background-color: #000000;
-            border: solid 5px #F2C2CF;
-            padding: 60px 10px;
-            margin: 50px 15px;
-            width: 160px;
-            height: 40px;
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
-        }
+        

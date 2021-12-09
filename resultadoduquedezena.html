@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-    
-        <title>Gerador de Apostas</title>
-        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    
-    </head>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Gerador de Apostas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
 <body>
 
-</body>
+            <script>
+
+            const dezena = resultadoSorteio(00, 99)
+            const dezena2 = resultadoSorteio(00, 99)
+
+            const body = document.querySelector('body')
+
+            const p = document.createElement('p')
+            p.classList.add('resultadoDuplo')
+            p.innerHTML = dezena
+
+            const p1 = document.createElement('p')
+            p1.classList.add('resultadoDuplo')
+            p1.innerHTML = dezena2
+
+            body.appendChild(p)
+            body.appendChild(p1)
+
+            function resultadoSorteio(min, max) {
+                min = Math.ceil(min);
+                max = Math.floor(max);
+                const conta = Math.floor(Math.random() * (max - min)) + min;
+                var s = conta + "";
+                while (s.length < 2) s = "0" + s;
+                return s;
+            }
+
+        </script>
+
+    </body>
 
 </html>
