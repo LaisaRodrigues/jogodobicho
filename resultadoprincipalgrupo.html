@@ -11,15 +11,98 @@
 </head>
 
 <body>
-    <p id="resultadoGrupo"></p>
+    <div bichos>
+        <p class="resultadoImagem">
+            <img width="130px" src="imagensbichos/aguia.svg" alt="Águia">
+        </p>
+        <p class="resultadoImagem">
+            <img width="115px" src="imagensbichos/avestruz.svg" alt="Avestruz">
+        </p>
+        <p class="resultadoImagem">
+            <img width="165px" src="imagensbichos/borboleta.svg" alt="Borboleta">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/burro.svg" alt="Burro">
+        </p>
+        <p class="resultadoImagem">
+            <img width="125px" src="imagensbichos/cabra.svg" alt="Cabra">
+        </p>
+        <p class="resultadoImagem">
+            <img width="155px" src="imagensbichos/cachorro.svg" alt="Cachorro">
+        </p>
+        <p class="resultadoImagem">
+            <img width="155px" src="imagensbichos/camelo.svg" alt="Camelo">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/carneiro.svg" alt="Carneiro">
+        </p>
+        <p class="resultadoImagem">
+            <img width="150px" src="imagensbichos/cavalo.svg" alt="Cavalo">
+        </p>
+        <p class="resultadoImagem">
+            <img width="130px" src="imagensbichos/cobra.svg" alt="Cobra">
+        </p>
+        <p class="resultadoImagem">
+            <img width="140px" src="imagensbichos/coelho.svg" alt="Coelho">
+        </p>
+        <p class="resultadoImagem">
+            <img width="170px" src="imagensbichos/elefante.svg" alt="Elefante">
+        </p>
+        <p class="resultadoImagem">
+            <img width="130px" src="imagensbichos/galo.svg" alt="Galo">
+        </p>
+        <p class="resultadoImagem">
+            <img width="85px" src="imagensbichos/gato.svg" alt="Gato">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/jacare.svg" alt="Jacaré">
+        </p>
+        <p class="resultadoImagem">
+            <img width="150px" src="imagensbichos/leao.svg" alt="Leão">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/macaco.svg" alt="Macaco">
+        </p>
+        <p class="resultadoImagem">
+            <img width="150px" src="imagensbichos/pavao.svg" alt="Pavão">
+        </p>
+        <p class="resultadoImagem">
+            <img width="130px" src="imagensbichos/peru.svg" alt="Peru">
+        </p>
+        <p class="resultadoImagem">
+            <img width="150px" src="imagensbichos/porco.svg" alt="Porco">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/tigre.svg" alt="Tigre">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/touro.svg" alt="Touro">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/urso.svg" alt="Urso">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/vaca.svg" alt="Vaca">
+        </p>
+        <p class="resultadoImagem">
+            <img width="160px" src="imagensbichos/veado.svg" alt="Veado">
+        </p>
 
+    </div>
 
-    <script src="funcoes.js"> 
+    <script>
+
+        const body = document.querySelector('body')
+
+        const imagem = document.querySelectorAll('p.resultadoImagem');
+        const bichos = Array.from(imagem);
+        const bicho = bichos[Math.floor(Math.random() * bichos.length)];
+
+        body.appendChild(bicho)
+        bicho.style.display = "inline-block"
 
     </script>
-
-
-
 </body>
+
 
 </html>

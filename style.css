@@ -96,8 +96,7 @@
             text-decoration: none;
 
         }
-
-        .resultadoDuplo {
+        .resultadoDuqueTerno {
             color: #F2C2CF;
             font: inherit;
             background-color: #000000;
@@ -109,6 +108,17 @@
             display: inline-block;
             text-align: center;
             text-decoration: none;
-        }
 
+        }
         
+        .resultadoImagem {
+            position: relative;
+            background-color: #000000;
+            border: solid 5px #F2C2CF;
+            padding: 10px;
+            width: 160px;
+            height: 140px;
+            display: none;
+            text-align: center;
+            margin: 50px 15px;
+        }
