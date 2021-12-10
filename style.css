@@ -122,3 +122,17 @@
             text-align: center;
             margin: 50px 15px;
         }
+
+    .contato {
+        font: inherit;
+        color: #F2C2CF;
+        text-decoration: none;
+
+    }
+
+    .chico {
+        margin: 5px;
+        border: solid 5px #F2C2CF;
+        padding: 10px;
+        font-size: 20px;
+    }
