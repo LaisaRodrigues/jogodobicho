@@ -1,1 +1,9 @@
-Esse é um gerador de apostas do jogo do bicho, feito em JS!
+#Esse é um gerador de apostas do jogo do bicho, feito em JavaScript!<h1>
+
+O Jogo do Bicho é considerado uma contravenção penal, consequentemente, ilegal. Legalidade é legal? Fica o questionamento, favoreça sua loteria local.**Esse gerador é meramente ilustrativo e não tem o objetivo de incitação ao crime**.
+
+
+Disponivel em https://geradordeapostas.herokuapp.com/index.
+
+
+

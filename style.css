@@ -7,6 +7,10 @@
             padding-top: 150px;
         }
 
+        img{
+            margin-left: auto;
+            margin-right: auto;
+        }
         .dropbtn {
             font: inherit;
             color: #F2C2CF;
