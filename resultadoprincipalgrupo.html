@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <a href="/jogodobicho.html"><img width="30px" src="inspo/back.svg"></a>
+        <a href="/index.html"><img width="30px" src="inspo/back.svg"></a>
         <a href="resultadoprincipalgrupo.html"><img width="33px" src="inspo/refresh.svg"></a>
     </header>
     <div bichos>
@@ -96,15 +96,13 @@
 
     <script>
 
-        const body = document.querySelector('body')
-
         const imagem = document.querySelectorAll('p.resultadoImagem');
-        const bichos = Array.from(imagem);
-        const bicho = bichos[Math.floor(Math.random() * bichos.length)];
+        let bichos = Array.from(imagem);
+        bichos.sort((a, b) => (Math.random() - 0.5))
 
-        body.appendChild(bicho)
-        bicho.style.display = "inline-flex"
 
+        bichos[0].style.display = "inline-flex"
+        
     </script>
 </body>
 
