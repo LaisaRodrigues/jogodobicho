@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Gerador de Apostas</title>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 
 </head>
 
 <body>
     <div class="dropdown">
-        <button class="dropbtn">GRUPO</button>
-        <div class="dropdown-content">
+        <button class="dropbtn" onclick="telaPequena()">GRUPO</button>
+        <div id="myDropdown" class="dropdown-content">
             <a href="resultadoprincipalgrupo.html">GRUPO</a>
             <a href="resultadoduquegrupo.html">DUQUE</a>
             <a href="resultadoternogrupo.html">TERNO</a>
@@ -22,8 +24,8 @@
 
 
     <div class="dropdown">
-        <button class="dropbtn">DEZENA</button>
-        <div class="dropdown-content">
+        <button class="dropbtn" onclick="telaPequena1()">DEZENA</button>
+        <div id="myDropdown1" class="dropdown-content">
             <a href="resultadoprincipaldezena.html">DEZENA</a>
             <a href="resultadoduquedezena.html">DUQUE</a>
             <a href="resultadoternodezena.html">TERNO</a>
@@ -35,10 +37,33 @@
     <a href="resultadoprincipalcentena.html" class="cm">CENTENA</a>
 
     <a href="resultadoprincipalmilhar.html" class="cm">MILHAR</a>
-</p>
-<a  class="contato" href=contato.html>FALE COMIGO</a>
+    </p>
+    <a class="contato" href=contato.html>FALE COMIGO</a>
 
 
+    <script>
+
+        function telaPequena() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+    
+        function telaPequena1() {
+            document.getElementById("myDropdown1").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 
 </body>
 

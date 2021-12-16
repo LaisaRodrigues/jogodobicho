@@ -1,142 +1,260 @@
-        body {
-            background-color: #000000;
-            font-family: 'Dosis', sans-serif;
-            color: #F2C2CF;
-            font-size: 35px;
-            text-align: center;
-            padding-top: 150px;
-        }
+         @media (max-width: 464px) {
 
-        img{
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .dropbtn {
-            font: inherit;
-            color: #F2C2CF;
-            background-color: #000000;
-            border: solid 5px #F2C2CF;
-            padding: 50px 8px;
-            margin: 0px 15px;
-            width: 190px;
-            height: 170px;
-            display: inline-block;
-            text-align: center;
-        }
+             .dropbtn {
+                 font-size: 29px;
+                 font-family: 'Dosis', sans-serif;
+                 color: #F2C2CF;
+                 background-color: #000000;
+                 border: solid 5px #F2C2CF;
+                 padding-top: 50px;
+                 justify-content: center;
+                 width: 150px;
+                 height: 140px;
+                 display: inline-flex;
+                 text-align: center;
+                 cursor: pointer;
+             }
 
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #000000;
-            width: 190px;
-            height: 170px;
-            margin: -170px 15px;
-        }
+             .dropdown {
+                 position: relative;
+                 display: inline-flex;
+             }
 
-        .dropdown-content a {
-            color: #F2C2CF;
-            font: inherit;
-            padding: 7px;
-            text-decoration: none;
-            display: block;
-        }
+             .dropdown-content {
+                 display: none;
+                 position: absolute;
+                 background-color: #000000;
+                 width: 150px;
+                 height: 140px;
 
-        .dropdown-content a:hover {
-            background-color: #3F403C;
-        }
+             }
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+             .dropdown-content a {
+                 font-size: 29px;
+                 font-family: 'Dosis', sans-serif;
+                 color: #F2C2CF;
+                 padding: 7px;
+                 text-decoration: none;
+                 display: block;
+             }
 
-        .cm {
-            color: #F2C2CF;
-            background-color: #000000;
-            border: solid 5px #F2C2CF;
-            padding: 60px 10px;
-            margin: 0px 15px;
-            width: 160px;
-            height: 40px;
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
-        }
+             .dropdown-content a:hover {
+                 background-color: #3F403C;
+             }
 
-        .cm:hover {
-            background-color: #3F403C;
-        }
 
-        #resultadoGrupo {
-            color: #F2C2CF;
-            font: inherit;
-            background-color: #000000;
-            border: solid 5px #F2C2CF;
-            padding: 60px 10px;
-            margin: 50px 15px;
-            width: 160px;
-            height: 40px;
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
+             .cm {
+                 font-size: 29px;
+                 color: #F2C2CF;
+                 background-color: #000000;
+                 border: solid 5px #F2C2CF;
+                 padding-top: 50px;
+                 width: 140px;
+                 height: 80px;
+                 display: inline-flex;
+                 justify-content: center;
+                 text-decoration: none;
+             }
 
-        }
+             .contato {
+                 font-family: 'Dosis', sans-serif;
+                 font-size: 25px;
+                 color: #F2C2CF;
+                 text-decoration: none;
+             }
 
-        #resultadoUnitario {
-            color: #F2C2CF;
-            font: inherit;
-            background-color: #000000;
-            border: solid 5px #F2C2CF;
-            padding: 60px 10px;
-            margin: 50px 15px;
-            width: 160px;
-            height: 40px;
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
+             .show {
+                 display: block;
+             }
 
-        }
-        .resultadoDuqueTerno {
-            color: #F2C2CF;
-            font: inherit;
-            background-color: #000000;
-            border: solid 5px #F2C2CF;
-            padding: 60px 10px;
-            margin: 50px 15px;
-            width: 160px;
-            height: 40px;
-            display: inline-block;
-            text-align: center;
-            text-decoration: none;
+             #resultadoUnitario {
+                color: #F2C2CF;
+                font: inherit;
+                background-color: #000000;
+                border: solid 5px #F2C2CF;
+                padding: 50px 10px;
+                margin: 50px 15px;
+                width: 120px;
+                height: 30px;
+                display: inline-block;
+                text-align: center;
+                text-decoration: none;
 
-        }
-        
-        .resultadoImagem {
-            position: relative;
-            background-color: #000000;
-            border: solid 5px #F2C2CF;
-            padding: 10px;
-            width: 160px;
-            height: 140px;
-            display: none;
-            text-align: center;
-            margin: 50px 15px;
-        }
+            }
 
-    .contato {
-        font: inherit;
-        color: #F2C2CF;
-        text-decoration: none;
+            .resultadoDuqueTerno {
+                color: #F2C2CF;
+                font: inherit;
+                background-color: #000000;
+                border: solid 5px #F2C2CF;
+                padding: 50px 10px;
+                margin: 15px ;
+                width: 120px;
+                height: 30px;
+                display: inline-block;
+                text-align: center;
+                text-decoration: none;
 
-    }
+            }
 
-    .chico {
-        margin: 5px;
-        border: solid 5px #F2C2CF;
-        padding: 10px;
-        font-size: 20px;
-    }
+            .resultadoImagem {
+                position: relative;
+                background-color: #000000;
+                border: solid 5px #F2C2CF;
+                padding: 10px;
+                width: 120px;
+                height: 110px;
+                display: none;
+                text-align: center;
+                margin: 15px;
+            }
+
+            .contato {
+                font: inherit;
+                color: #F2C2CF;
+                text-decoration: none;
+
+            }
+
+            .chico {
+                margin: 5px;
+                border: solid 5px #F2C2CF;
+                padding: 10px;
+                font-size: 20px;
+            }
+         }
+
+         body {
+             background-color: #000000;
+             font-family: 'Dosis', sans-serif;
+             color: #F2C2CF;
+             font-size: 35px;
+             text-align: center;
+             padding-top: 150px;
+
+
+         }
+
+         img {
+             margin-left: auto;
+             margin-right: auto;
+         }
+
+         @media (min-width: 465px) {
+             .dropbtn {
+                 font: inherit;
+                 color: #F2C2CF;
+                 background-color: #000000;
+                 border: solid 5px #F2C2CF;
+                 padding: 50px 8px;
+                 margin: 0px 15px;
+                 width: 190px;
+                 height: 170px;
+                 display: inline-block;
+                 text-align: center;
+             }
+
+             .dropdown {
+                 position: relative;
+                 display: inline-block;
+             }
+
+             .dropdown-content {
+                 display: none;
+                 position: absolute;
+                 background-color: #000000;
+                 width: 190px;
+                 height: 170px;
+                 margin: -170px 15px;
+             }
+
+             .dropdown-content a {
+                 color: #F2C2CF;
+                 font: inherit;
+                 padding: 7px;
+                 text-decoration: none;
+                 display: block;
+             }
+
+             .dropdown-content a:hover {
+                 background-color: #3F403C;
+             }
+
+             .dropdown:hover .dropdown-content {
+                 display: block;
+             }
+
+             .cm {
+                 color: #F2C2CF;
+                 background-color: #000000;
+                 border: solid 5px #F2C2CF;
+                 padding: 60px 10px;
+                 margin: 0px 15px;
+                 width: 160px;
+                 height: 40px;
+                 display: inline-block;
+                 text-align: center;
+                 text-decoration: none;
+             }
+
+             .cm:hover {
+                 background-color: #3F403C;
+             }
+
+             #resultadoUnitario {
+                 color: #F2C2CF;
+                 font: inherit;
+                 background-color: #000000;
+                 border: solid 5px #F2C2CF;
+                 padding: 60px 10px;
+                 margin: 50px 15px;
+                 width: 160px;
+                 height: 40px;
+                 display: inline-block;
+                 text-align: center;
+                 text-decoration: none;
+
+             }
+
+             .resultadoDuqueTerno {
+                 color: #F2C2CF;
+                 font: inherit;
+                 background-color: #000000;
+                 border: solid 5px #F2C2CF;
+                 padding: 60px 10px;
+                 margin: 50px 15px;
+                 width: 160px;
+                 height: 40px;
+                 display: inline-block;
+                 text-align: center;
+                 text-decoration: none;
+
+             }
+
+             .resultadoImagem {
+                 position: relative;
+                 background-color: #000000;
+                 border: solid 5px #F2C2CF;
+                 padding: 10px;
+                 width: 160px;
+                 height: 140px;
+                 display: none;
+                 text-align: center;
+                 margin: 50px 15px;
+             }
+
+             .contato {
+                 font: inherit;
+                 color: #F2C2CF;
+                 text-decoration: none;
+
+             }
+
+             .chico {
+                 margin: 5px;
+                 border: solid 5px #F2C2CF;
+                 padding: 10px;
+                 font-size: 20px;
+             }
+         }
