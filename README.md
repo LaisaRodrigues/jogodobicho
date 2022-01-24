@@ -6,7 +6,7 @@ Fica o questionamento, favoreça sua loteria local.</p> **Esse gerador é merame
 
 ![bandeira do brasil com: legalizem o jogo do bicho escrito na faixa](https://github.com/LaisaRodrigues/jogodobicho/blob/main/inspo/bandeira.jpg)
 
-Disponivel em https://geradordeapostas.herokuapp.com/index.
+Disponivel em https://geradordeapostas.herokuapp.com/
 
 
 
